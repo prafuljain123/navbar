@@ -1,0 +1,19 @@
+.navbar{
+    background-color: black;
+    padding: 1rem;
+  
+}
+a{
+    font-size: 1.4rem;
+  color: aliceblue;
+  padding: 15px;
+  text-decoration: none;
+}
+@media (max-width:300px) {
+    .navbar,a{
+        display: block;
+        background-color: blue;
+        text-align: center;
+    }
+    
+}
